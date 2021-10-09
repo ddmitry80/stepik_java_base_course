@@ -273,7 +273,7 @@ public class Quiz4_3_2 {
 
     // Main program!!!
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger("org.stepic.test");
+        Logger logger = Logger.getLogger(Quiz4_3_2.class.getName());
         Spy spy = new Spy(logger);
         Thief thief = new Thief(10000);
         Inspector inspector = new Inspector();
