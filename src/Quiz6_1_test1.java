@@ -22,6 +22,7 @@ class MyOpt<T> {
 }
 
 public class Quiz6_1_test1 {
+    enum Season { WINTER, SPRING, SUMMER, AUTUMN };
 
     public static void main(String[] args) {
         MyOpt<Integer> a = new MyOpt<Integer>(5);
@@ -29,7 +30,7 @@ public class Quiz6_1_test1 {
 
         MyOpt<Cloneable> b = new MyOpt<Cloneable>();
 
-        enum Season { WINTER, SPRING, SUMMER, AUTUMN };
+
         MyOpt<Season> c = new MyOpt<>(Season.AUTUMN);
         System.out.println(c);
 
